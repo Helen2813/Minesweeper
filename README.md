@@ -2,7 +2,7 @@
 Select a difficulty level to challenge yourself, and enjoy the game!
 ![alt text](img/screen1.png "minesweeper screenshot")
 
-#Rules
+# Rules
 
 Minesweeper rules are very simple. The board is divided into cells, with mines randomly distributed. 
 To win, you need to open all the cells. The number on a cell shows the number of mines adjacent to it. 
