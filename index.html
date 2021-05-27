@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Sapper</title>
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sapper</title>
+</head>
+<body class="game">
+    <form class="controls" action="https://echo.htmlacademy.ru" method="get">
+        <div class="size">
+            <p class="width">
+            <input class="field-width" type="number" value="15" min="5" max="40" step="5" id="width">
+            <label class="label-width" for="width">Width</label>
+            </p>
+            <p class="height">
+            <input class="field-height" type="number" value="15" min="5" max="25" step="5" id="height">
+            <label class="label-height" for="height">Height</label>
+            </p>
+        </div>
+
+        <p class="difficulty">
+            <input class="skill" type="radio" name="difficulty" value="1" id="easy" checked>
+            <label class="label" for="easy">Easy</label>
+        
+            <input class="skill" type="radio" name="difficulty" value="1.5" id="average">
+            <label class="label" for="average">Average</label>
+        
+            <input class="skill" type="radio" name="difficulty" value="2.5" id="hard">
+            <label class="label" for="hard">Hard</label>
+        </p>
+
+        <button class="restart" type="button">Restart</button>
+    </form>
+
+    <div id="app"></div>
+    <div class="game-over modal">
+        <img class="end" src="img/gameover.jpg" width="572" height="479" alt="GAME OVER">
+        <button class="close over" type="button"></button>
+    </div>
+
+    <div class="win modal">
+        <img class="end" src="img/win.jpg" width="671" height="461" alt="WIN"> 
+        <button class="close youwin" type="button"></button>
+    </div>
+    <script src="core.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
